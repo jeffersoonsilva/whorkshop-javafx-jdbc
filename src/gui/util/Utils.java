@@ -9,7 +9,6 @@ public class Utils {
 	public static Stage currentStage(ActionEvent event) {
 		return (Stage) ((Node) event.getSource()).getScene().getWindow();
 		
-		
 	}
 	
 	public static Integer tryParseToInt(String srt) {
@@ -17,7 +16,6 @@ public class Utils {
 			return Integer.parseInt(srt);
 		}catch(NumberFormatException e) {
 			return null;
-		}
-		
+		}		
 	}
 }
